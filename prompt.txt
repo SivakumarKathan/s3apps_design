@@ -1,0 +1,16 @@
+Act as a Senior Python/django Developer. 
+Generate a complete, production-ready simple Django base page/application ( so that this page can be re used to release all the future django apps and Fast API micro saas) . 
+Include a responsive frontend, 
+Provide the code for models, views, URLs, and a base template.
+please share the basic steps and scripts starting from -
+Creating project "s3apps_design", 
+create Venv, 
+install all the required librarys using requirement.txt, 
+
+Note:
+Project name :	s3apps_design
+Nav Bar : create interactive Nav bar
+		left:	display Logo(S3 Logo.png) & show the text "Apps"
+		Center: label "Home, Stories(where blog post to showcase), Services ( list Microservices for later)"
+		right: Login/logout
+		
