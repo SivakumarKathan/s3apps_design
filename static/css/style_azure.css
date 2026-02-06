@@ -1,0 +1,82 @@
+/* style_azure.css - Azure-inspired design for S3Apps portal */
+body {
+    background: linear-gradient(135deg, #f3f6fb 0%, #e6ecf5 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+/* Azure Portal Navbar Styles */
+.azure-navbar {
+    background-color: #24292f !important;
+    box-shadow: 0 2px 8px rgba(36,41,47,0.08);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #1b1f23;
+}
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+}
+.azure-icon {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: #0078d4;
+}
+.azure-title {
+    color: #fff !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+.navbar-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+    background: transparent;
+}
+.navbar-link:hover {
+    background: #0078d4;
+    color: #fff;
+}
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,120,212,0.08);
+    border: none;
+}
+.btn-primary {
+    background-color: #0078d4;
+    border-color: #0078d4;
+}
+.btn-primary:hover {
+    background-color: #005a9e;
+    border-color: #005a9e;
+}
+.footer {
+    background-color: #e6ecf5;
+    color: #0078d4;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+}

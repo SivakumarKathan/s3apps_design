@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}S3Apps Azure Portal{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style_azure.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar azure-navbar">
+        <div class="navbar-content">
+            <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-microsoft azure-icon"></i>
+                <span class="azure-title">S3Apps Azure Portal</span>
+            </a>
+            <ul class="navbar-links">
+                <li><a class="navbar-link" href="#">Home</a></li>
+                <li><a class="navbar-link" href="#">Stories</a></li>
+                <li><a class="navbar-link" href="#">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container mt-5">
+        {% block content %}
+        <!-- Page-specific content goes here -->
+        {% endblock %}
+    </main>
+    <footer class="footer mt-5">
+        &copy; 2026 S3Apps Azure Portal. All rights reserved.
+    </footer>
+</body>
+</html>
